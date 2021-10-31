@@ -67,3 +67,11 @@ var idade = 28
 // for(count = 0; count <= 5; count++){
 //     console.log(count)
 // }
+
+// --- data atual ---
+var dataAtual = new Date();
+// console.log(dataAtual)
+// --- apenas o mês ou dia ou hora atual---
+// console.log(dataAtual.getMonth()+1)
+// console.log(dataAtual.getDay())
+// console.log(dataAtual.getHours())
