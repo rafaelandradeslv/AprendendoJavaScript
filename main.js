@@ -75,3 +75,4 @@ var dataAtual = new Date();
 // console.log(dataAtual.getMonth()+1)
 // console.log(dataAtual.getDay())
 // console.log(dataAtual.getHours())
+
