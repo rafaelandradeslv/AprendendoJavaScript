@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo Javascript</title>
 </head>
-<body>
+
+<body onload="load()">
     <h1>Minha Página</h1>
 
+    <button onclick="clicou()">Clique aqui</button>
+    <p id="agradecimento" onclick="clicou()"></p>
+    
+    <p id="redirecionar" onclick="login()">Redirecionar para site google</p>
+    
+    <p id="mousemove" onchange="" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+    <select onclick='functionChange(this)' name="" id="">
+    
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    
+    </select>
 
     <script src='main.js'></script>
     <script src='funcoes.js'></script>
 </body>
+
 </html>
