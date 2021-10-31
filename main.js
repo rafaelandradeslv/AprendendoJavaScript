@@ -40,9 +40,30 @@ var idade = 28
 // console.log(lista.join(' - '))
 
 // --- dicionário --- 
-var fruta = {nome: 'maçã', cor:'vermelha'}
-console.log(fruta.nome)
-console.log(fruta.cor)
-// --- lista dicionário --- 
-var fruta = [{nome: 'laranja',cor:'laranja'}]
-console.log(fruta[0].cor)
+// var fruta = {nome: 'maçã', cor:'vermelha'}
+// console.log(fruta.nome)
+// console.log(fruta.cor)
+// // --- lista dicionário --- 
+// var fruta = [{nome: 'laranja',cor:'laranja'}]
+// console.log(fruta[0].cor)
+
+// --- condicional -- 
+// var idade = prompt('Qual a sua idade? ')
+// if (idade >= 18){
+//     alert('Você é maior de idade')
+// }else {
+//     alert('Você é menor de idade')
+// }
+
+// --- laço repetição while ---
+// var count = 0
+// while (count <= 5) {
+//     console.log(count)
+//     count++
+// }
+
+// --- laço repetição ---
+// var count
+// for(count = 0; count <= 5; count++){
+//     console.log(count)
+// }
